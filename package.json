@@ -1,0 +1,13 @@
+{
+  "name": "electronbug",
+  "license": "GNU V.3",
+  "version": "1.0.0",
+  "main": "tests/init.js",
+  "scripts": {
+    "start": "electron .",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "devDependencies": {
+    "electron": "^9.1.1"
+  }
+}
